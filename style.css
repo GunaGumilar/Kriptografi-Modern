@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./image/anas-alshanti-feXpdV001o4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: 200px;
+    border-radius: 15px;
+    border-radius: 7px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    box-shadow:  5px 5px 21px #ebebeb,
+                 -5px -5px 21px #ffffff;
+}
+.container .hero {
+    display: flex;
+    justify-content: center;
+}
+.container .hero2 {
+    display: flex;
+    justify-content: center;
+}
+.container .hero3 {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.menu button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    box-shadow:  5px 5px 10px #fafafa,
+                 -5px -5px 10px #ffffff;
+}
+.menu button:hover {
+    background-color: #007bff;
+    transition: 0.8s;
+    box-shadow:  5px 5px 21px #ebebeb,
+                 -5px -5px 21px #ffffff;
+}
+.decryptionResult {
+    color: white;
+}
+.text {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.center  {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
